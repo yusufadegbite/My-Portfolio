@@ -1,0 +1,169 @@
+.contact-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4em 0 2em 0;
+}
+
+.contact {
+    margin: 5em 0 0 0;
+}
+
+.contact-name h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 0px;
+}
+
+.fa-id-card {
+    margin: 0 0 0 0;
+    color: hsl(271, 97%, 53%);
+    padding: 4px 5px;
+    background-color: whitesmoke;
+    font-size: 24px;
+}
+
+.contact-div {
+    margin: 2em 0 0 0;
+    text-align: left;
+    height: auto;
+    width: 40;
+    padding: 1em 0 2em 1em;
+}
+
+.git {
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-top: 2em;
+    text-align: left;
+}
+
+.git h3 {
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 22px;
+}
+
+.git p {    
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 0 0 0;
+    font-size: 14px;
+}
+
+.connect {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 1rem 0 0;
+}
+
+.l-connect {
+    margin: 1em 0 0 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+.fa-phone, .fa-envelope {
+    margin: 0.1rem 0.5rem 0 0;
+    color: hsl(271, 97%, 53%);
+    background-color: whitesmoke;
+}
+
+.fa-linkedin {
+    margin: 0 0.5rem 0 0;
+}
+
+.fa-twitter {
+    margin: 0 1rem 0 0;
+}
+
+.contact-form {
+    text-align: left;
+    height: auto;
+    width: 40%;
+    padding: 1em 0 2em 3em;
+    color: white;
+    background-color: hsl(271, 97%, 53%);
+}
+
+.contact-intro {
+    line-height: 6px;
+}
+
+.contact-intro p {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-intro h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+    line-height: 1.5em;
+}
+
+form label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 14px
+}
+
+form div {
+    margin: 0 0 0.8rem 0;
+}
+
+form input {
+    width: 60%;
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 0 0 0.05rem 0.1rem;
+    outline: none;
+    background-color: hsl(271, 97%, 53%);
+    color: antiquewhite;
+}
+
+form div.message {
+    margin: 0;
+}
+
+.message input {
+    height: 3em;
+    word-wrap: break-word;
+}
+
+
+form button {
+    margin: 1.6em 0 0 0;
+    padding: 0.5rem 1.6em;
+    text-align: center;
+    color: hsl(271, 97%, 53%);
+    background-color: white;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+      form input {
+        width: 65%;
+      }
+}
+
+@media screen and (max-width: 500px) {
+    .contact-main {
+        display: flex;
+    flex-direction: column;
+    margin: 0em 0 2em 2em;
+    width: auto;
+    }
+
+    .contact-form {
+        width: 80%;
+
+    }
+
+    form input {
+       width: 75%;
+}
+     .contact-name h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+}

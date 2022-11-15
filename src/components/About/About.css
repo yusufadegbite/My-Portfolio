@@ -1,0 +1,245 @@
+.about-div {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
+    margin: 4em 0 0 0;
+}
+
+@media screen and (max-width: 600px) {
+    .intro-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+    }  
+    
+    
+}
+
+
+.animate__animated.animate__slideInLeft {
+    animation-delay: 0.25s;
+    animation-duration: 1.5s;
+  }
+
+  .animate__animated.animate__slideInUp {
+    animation-delay: 0.5s;
+  }
+
+
+.intro-div {
+    text-align: left;
+     line-height: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro p {
+    color: hsl(271, 97%, 53%);
+}
+
+.intro h3 {
+    color: hsl(271, 97%, 53%);
+    line-height: 0.05rem;
+    font-weight: 600;
+}
+
+.intro h2 {
+    padding: 0 0 0 0;
+    line-height: 1.2em;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.resume-btn {
+    padding: 7px 24px;
+    background-color: hsl(271, 97%, 53%);
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    border: 0;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 550;
+    cursor: pointer;
+    margin: 0 0 10px 0;
+}
+
+.resume-btn:hover {
+    background-color: white;
+    color: hsl(271, 97%, 53%);
+    border: 1px solid hsl(271, 97%, 53%);
+} 
+
+.social {
+    display: flex;
+}
+
+.social-links {
+    margin: 0.17rem 0 0 0.5rem;
+}
+
+.social-links a {
+    text-decoration: none;
+    padding: 0px 3px 0 5.5px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.fa-linkedin {
+    color: hsl(271, 97%, 53%);
+    border-radius: 3px;
+    border: 1px solid hsl(271, 97%, 53%);
+    padding: 4px 6px;
+    
+}
+
+.fa-twitter {
+    color: hsl(271, 97%, 53%);
+    border-radius: 3px;
+    border: 1px solid hsl(271, 97%, 53%);
+    padding: 4px 5px;
+}
+
+.fa-github {
+    color: hsl(271, 97%, 53%);
+    border-radius: 3px;
+    border: 1px solid hsl(271, 97%, 53%);
+    padding: 4px 5px;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px hsl(271, 97%, 53%);
+    border-radius: 50%;
+    height: 240px;
+    width: 240px;  
+}
+
+.picture {
+    background-image: url(../images/IMG_20210513_150859_9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 95%;
+    width: 95%;
+    transition: all 500ms ease;
+}
+
+.picture:hover{
+    transform: scale(1.1);
+}
+
+
+
+.profile-picture-mobile {
+    display: none;
+}
+
+.mobile {
+    background-image: url(../images/IMG_20210513_150859_9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 95%;
+    width: 95%;  
+    transition: all 500ms ease;
+}
+
+.mobile:hover {
+    transform: scale(1.1);
+}
+
+
+.fa-user {
+    margin: 0 0 0 0;
+    color: hsl(271, 97%, 53%);
+    padding: 4px 5px;
+    background-color: whitesmoke;
+    font-size: 24px;
+}
+
+.bio {
+    margin: 4em 0 0 0;
+    padding: 8px 5em;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+}
+
+.bio h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 0px;
+    padding: 0 0 1rem 0;
+}
+
+.bio p {
+    padding: 0 20%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7rem;
+}
+
+
+
+@media screen and (max-width: 678px) {
+    .about-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .intro {
+        margin: 3em 0 0 0;
+    }
+
+    .intro-div {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        line-height: 1px;
+        justify-content: left;
+    }
+
+
+
+    .social {
+         justify-content: center;
+    }
+
+    .bio  {
+        padding: 0;
+        width: auto;
+    }
+
+    .bio p {
+        padding: 0 4rem;
+    }
+
+   .profile-picture-mobile {
+    display: flex;
+    justify-content: center;  
+}
+
+.mobile {
+    box-shadow: 0 1px 0px 0px hsl(271, 97%, 53%);
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+.profile-picture {
+    display: none;
+}
+
+
+    
+}
+
+@media screen and (max-width: 480px) {
+.bio p {
+    padding: 0 3rem;
+}
+}

@@ -1,0 +1,86 @@
+.project-div {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   height: auto;
+   margin: 2em 0 2em 0;
+}
+
+.project-header h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.project-header p {
+    line-height: 1.8px;
+    font-weight: 470;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.project-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.project1 {
+    width: auto;
+    height: auto;
+    margin: 2em 1em 0 0;
+    padding: 1rem;
+    border-radius: 5%;
+    /*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+    box-shadow: 0 0 3px hsl(271, 97%, 53%);
+}
+
+.project1-preview {
+    width: 15em;
+    height: 15em;
+    background-image: url(../images/project1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.project1-note {
+    text-align: left;
+}
+
+.project1-note h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    line-height: 0%;
+}
+
+.project1-note p {
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.project1-note p.icons {
+    text-align: left;
+}
+
+.icon {
+    margin: 0 0.8em 0 0;
+    color: hsl(271, 97%, 53%);
+    border-radius: 3px;
+    border: 1px solid hsl(271, 97%, 53%);
+    padding: 4px 5px;
+    background-color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .project-flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+     }
+
+     .project1 {
+        text-align: center;
+        width: 15em;
+        justify-content: center;
+        align-self: center;
+     }
+
+}

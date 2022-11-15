@@ -1,0 +1,38 @@
+.footer-main {
+    padding: 2em 1em 1em 1em;
+    background-color: black;
+    color: white;
+}
+
+.footer-main hr {
+    width: 40%;
+    color: white;
+    background-color: antiquewhite;
+    border: 0;
+    height: 0.5px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+.flinks i.linkedin {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 4px 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .footer-main hr {
+        width: 30%;
+    }
+
+    .footer-main p {
+        font-size: 16px;
+    }
+}
