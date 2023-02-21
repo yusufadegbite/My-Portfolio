@@ -32,41 +32,48 @@
      line-height: normal;
     display: flex;
     flex-direction: column;
+    margin: 1em 0 0 0;
 }
 
 .intro p {
-    color: hsl(271, 97%, 53%);
+    color: #323232;
+    font-weight: 700;
+    padding: -10px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
 }
 
 .intro h3 {
-    color: hsl(271, 97%, 53%);
-    line-height: 0.05rem;
-    font-weight: 600;
+    color: #323232;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 .intro h2 {
     padding: 0 0 0 0;
     line-height: 1.2em;
     font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
 }
 
 .resume-btn {
-    padding: 7px 24px;
-    background-color: hsl(271, 97%, 53%);
+    padding: 10px 27px;
+    background-color: #323232;
     color: white;
     font-family: 'League Spartan', sans-serif;
     border: 0;
-    border-radius: 8px;
-    font-size: 17px;
-    font-weight: 550;
+    border-radius: 9px;
+    font-size: 18px;
     cursor: pointer;
     margin: 0 0 10px 0;
 }
 
 .resume-btn:hover {
-    background-color: white;
-    color: hsl(271, 97%, 53%);
-    border: 1px solid hsl(271, 97%, 53%);
+    background-color: #DDD0C8;
+    color: #323232;
+    border: 1px solid #323232;
+    font-weight: 500;
 } 
 
 .social {
@@ -74,50 +81,49 @@
 }
 
 .social-links {
-    margin: 0.17rem 0 0 0.5rem;
+    margin: 0.15rem 0 0 0.5rem;
 }
 
 .social-links a {
     text-decoration: none;
     padding: 0px 3px 0 5.5px;
     text-align: center;
-    margin-top: 10%;
 }
 
 .fa-linkedin {
-    color: hsl(271, 97%, 53%);
+    color: #323232;
     border-radius: 3px;
-    border: 1px solid hsl(271, 97%, 53%);
-    padding: 4px 6px;
+    border: 1px solid #323232;
+    padding: 8px 10px;
     
 }
 
 .fa-twitter {
-    color: hsl(271, 97%, 53%);
+    color: #323232;
     border-radius: 3px;
-    border: 1px solid hsl(271, 97%, 53%);
-    padding: 4px 5px;
+    border: 1px solid #323232;
+    padding: 8px 10px;
 }
 
 .fa-github {
-    color: hsl(271, 97%, 53%);
+    color: #323232;
     border-radius: 3px;
-    border: 1px solid hsl(271, 97%, 53%);
-    padding: 4px 5px;
+    border: 1px solid #323232;
+    padding: 8px 10px;
 }
 
 .profile-picture {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 1px 0px 0px hsl(271, 97%, 53%);
+    box-shadow: 0 1px 0px 0px #323232;
     border-radius: 50%;
-    height: 240px;
-    width: 240px;  
+    height: 300px;
+    width: 300px;  
 }
 
 .picture {
-    background-image: url(../images/IMG_20210513_150859_9.jpg);
+    background-image: url(../images/me.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -138,7 +144,7 @@
 }
 
 .mobile {
-    background-image: url(../images/IMG_20210513_150859_9.jpg);
+    background-image: url(../images/me.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -155,9 +161,8 @@
 
 .fa-user {
     margin: 0 0 0 0;
-    color: hsl(271, 97%, 53%);
+    color: #323232;
     padding: 4px 5px;
-    background-color: whitesmoke;
     font-size: 24px;
 }
 
@@ -165,7 +170,6 @@
     margin: 4em 0 0 0;
     padding: 8px 5em;
     text-align: center;
-    background-color: rgb(253, 253, 253);
 }
 
 .bio h2 {
@@ -178,7 +182,10 @@
 .bio p {
     padding: 0 20%;
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.7rem;
+    line-height: 1.9rem;
+    font-size: medium;
+    color: #323232;
+    font-weight: 500;
 }
 
 
@@ -224,7 +231,7 @@
 }
 
 .mobile {
-    box-shadow: 0 1px 0px 0px hsl(271, 97%, 53%);
+    box-shadow: 0 1px 0px 0px #323232;
     border-radius: 50%;
     height: 250px;
     width: 250px;

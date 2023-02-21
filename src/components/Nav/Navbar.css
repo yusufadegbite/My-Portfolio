@@ -1,8 +1,7 @@
 .header {
-    background-color: rgb(253, 253, 253);
     display: flex;
     justify-content: space-between;
-    padding: 1em 3em;
+    padding: 1.5em 3em;
     position: relative;
     min-height: fit-content;
     width: auto;
@@ -13,27 +12,57 @@
   }
 
   .profile-name span {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
+    font-family: 'Eczar', serif;
+    font-size: 24px;
     font-weight: 700;
-    
+    color: #323232;
   }
 
-  .nav-div {
-    margin: 0 0 0 0%;
+  .profile-name span.span {
+    color: #323232;
   }
 
-  .fa-bars {
+  .header div.toggle-icon {
     display: none;
   }
 
-@media screen and (max-width: 678px){
-     .nav-div {
+@media screen and (max-width: 700px){
+     .nav-div .links {
       display: none;
      }
 
-     .fa-bars {
+     .header div.toggle-icon {
       display: block;
+      position: absolute;
+      color: #323232;
+      top: 1.92em;
+      right: 3em;
+     }
+
+     .header {
+      position: relative;
+      transition: 0.5s height ease-in-out;
+     }
+
+     .header.expanded {
+      height: 100vh;
+     }
+
+     .header.header.expanded .links {
+        position: absolute;
+        top: 120px;
+        left: -2.5em;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+     }
+
+     .header.header.expanded .links li {
+      margin: 15px 0;
+      font-size: 24px;
      }
 }
 
@@ -49,28 +78,31 @@
 
   .nav-bar ul li a {
     text-decoration: none;
-    color: black;
     padding: 0 15px;
-    font-size: small;
+    font-size: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: pointer;
-    font-weight: 400;
-    
+    font-family: 'Playfair Display', serif;
+    color: #323232;
   }
 
 .nav-bar ul li a.hire-btn {
-     padding: 5px 15px;
-     background-color: whitesmoke;
-     border-radius: 10px;
-     border: 1px solid rgb(139, 31, 247);
-     margin-left: auto;
+     padding: 8px 20px;
+     background-color: #323232;
+     border-radius: 15px;
+     margin-left: 0.8em;
+     color: white;
+     font-size: 15px;
+     font-weight: lighter;
 }
 
 
 
 .nav-bar ul li a.hire-btn:hover { 
-  background-color: rgb(139, 31, 247);
-  color: white;
+  background-color: #DDD0C8;
+  color: #323232;
+  border: 1px solid #323232;
+  font-weight: normal;
 }
 
 

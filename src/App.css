@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #DDD0C8;
+  color: #323232;
+  font-family: 'Playfair Display', serif;
 }
 
 .App-logo {
