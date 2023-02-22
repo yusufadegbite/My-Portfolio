@@ -1,6 +1,9 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 
 
 export default function Contact() {
@@ -30,7 +33,10 @@ export default function Contact() {
   }; 
 
   return (
+
     <div className='contact' id='contact'>
+          <AnimationOnScroll animateIn="animate__zoomInUp">
+
         <div className='contact-name'>
        <hr />
             </div>
@@ -92,6 +98,8 @@ export default function Contact() {
         </div>
         
         </div>
+        </AnimationOnScroll>
+
     </div>
   )
 }

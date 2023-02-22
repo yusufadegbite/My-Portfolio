@@ -6,6 +6,8 @@ import Js from "../images/js-logo.svg";
 import ReactJs from "../images/react-logo.svg";
 import Tailwind from "../images/tailwind-logo.svg";
 import Bootstrap from "../images/bootstrap-logo.png";
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 
 export default function Skills() {
@@ -14,6 +16,8 @@ export default function Skills() {
          <h2 className="">
           Technical Skills
         </h2>
+        <AnimationOnScroll animateIn="animate__zoomIn">
+
         <div className='skills-div'>
 
         <div className="skill">
@@ -59,6 +63,8 @@ export default function Skills() {
           </div>
           <hr />
         </div>
+        </AnimationOnScroll>
+
         
     </div>
 

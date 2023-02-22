@@ -31,6 +31,7 @@
       display: none;
      }
 
+
      .header div.toggle-icon {
       display: block;
       position: absolute;
@@ -64,6 +65,21 @@
       margin: 15px 0;
       font-size: 24px;
      }
+}
+
+@media  screen and (max-width: 480px) {
+  .header div.toggle-icon {
+    display: block;
+    position: absolute;
+    color: #323232;
+    top: 1.895em;
+    right: 2rem;
+    cursor: pointer;
+   }
+
+   .profile-name {
+    padding: 0 0 0 0rem;
+   }
 }
 
   .nav-bar ul {

@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 
+
 export default function About() {
 
   return (
@@ -44,7 +45,7 @@ export default function About() {
              <h2>About Me</h2>
              <p>
               I'm Yusuf Adegbite,a student of Civil Engineering from the University of Ibadan,Nigeria and creative front-end web developer, i circumvent problems relating to user interaction with websites and i create consistent and unified web designs that creates a positive experience for users across all platforms and all devices.I have proven skills with certificate in HTML5,CSS3 and JAVASCRIPT.
-              Im currently learning ReactJs and Python for backend development,looking forward to becoming a Fullstack Developer.
+              Im currently learning ReactJs and PHP for backend development,looking forward to becoming a Fullstack Developer.
              </p>
         </div>
 

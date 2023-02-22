@@ -2,6 +2,8 @@ import React from 'react';
 import './project.css';
 import { FaGithub } from 'react-icons/fa';
 import { GoLinkExternal } from 'react-icons/go';
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 export default function Project() {
   return (
@@ -10,7 +12,7 @@ export default function Project() {
            <h2>Portfolio Projects</h2>
              <p>Here are the projects i have completed</p>
       </div>
-
+      <AnimationOnScroll animateIn="animate__fadeInRight">
       <div className='project-flex'>
 
       <div className='project1'>
@@ -138,6 +140,7 @@ export default function Project() {
       
 
       </div>
+      </AnimationOnScroll>
 
     </div>
   )
